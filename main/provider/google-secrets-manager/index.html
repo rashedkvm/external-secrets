@@ -13,7 +13,7 @@
     
     
       
-        <title>Secret Manager - External Secrets Operator</title>
+        <title>Google Secret Manager - External Secrets Operator</title>
       
     
     
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Secret Manager
+              Google Secret Manager
             
           </span>
         </div>
@@ -181,6 +181,120 @@
       
         
           
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        Introduction
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../api/components/" class="md-tabs__link">
+        API
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../guides/introduction/" class="md-tabs__link">
+        Guides
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../aws-secrets-manager/" class="md-tabs__link md-tabs__link--active">
+        Provider
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../examples/gitops-using-fluxcd/" class="md-tabs__link">
+        Examples
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contributing/devguide/" class="md-tabs__link">
+        Community
+      </a>
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -193,8 +307,10 @@
                   <div class="md-sidebar__inner">
                     
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="External Secrets Operator" class="md-nav__button md-logo" aria-label="External Secrets Operator" data-md-component="logo">
       
@@ -226,25 +342,123 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" data-md-state="indeterminate" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../..">Introduction</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
-        Introduction
+      <a href="../../introduction/overview/" class="md-nav__link">
+        Overview
       </a>
     </li>
   
 
-    
-      
-      
-      
-
+            
+          
+            
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../overview/" class="md-nav__link">
-        Overview
+      <a href="../../introduction/getting-started/" class="md-nav__link">
+        Getting started
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/stability-support/" class="md-nav__link">
+        Stability and Support
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/deprecation-policy/" class="md-nav__link">
+        Deprecation Policy
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -260,20 +474,82 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_3">
-          API Types
+      
+        <label class="md-nav__link" for="__nav_2">
+          API
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="API Types" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
+      <nav class="md-nav" aria-label="API" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          API Types
+          API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/components/" class="md-nav__link">
+        Components
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" data-md-state="indeterminate" type="checkbox" id="__nav_2_2" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Core Resources
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Core Resources" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Core Resources
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -333,6 +609,237 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/pushsecret/" class="md-nav__link">
+        PushSecret
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" data-md-state="indeterminate" type="checkbox" id="__nav_2_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../api/generator/">Generators</a>
+          
+            <label for="__nav_2_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Generators" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Generators
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/generator/acr/" class="md-nav__link">
+        Azure Container Registry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/generator/ecr/" class="md-nav__link">
+        AWS Elastic Container Registry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/generator/gcr/" class="md-nav__link">
+        Google Container Registry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/generator/password/" class="md-nav__link">
+        Password
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/generator/fake/" class="md-nav__link">
+        Fake
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" data-md-state="indeterminate" type="checkbox" id="__nav_2_4" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Reference Docs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reference Docs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Reference Docs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/spec/" class="md-nav__link">
+        API specification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/controller-options/" class="md-nav__link">
+        Controller Options
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/metrics/" class="md-nav__link">
+        Metrics
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -350,18 +857,46 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_4">
+      
+        <label class="md-nav__link" for="__nav_3">
           Guides
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Guides" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+        <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Guides
         </label>
@@ -386,36 +921,28 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../guides/getting-started/" class="md-nav__link">
-        Getting started
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" data-md-state="indeterminate" type="checkbox" id="__nav_3_2" checked>
       
       
       
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_4_3">
+      
+        <label class="md-nav__link" for="__nav_3_2">
           Advanced Templating
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Advanced Templating" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_3">
+        <label class="md-nav__title" for="__nav_3_2">
           <span class="md-nav__icon md-icon"></span>
           Advanced Templating
         </label>
@@ -451,6 +978,20 @@
           
         </ul>
       </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/generator/" class="md-nav__link">
+        Generators
+      </a>
     </li>
   
 
@@ -560,20 +1101,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../guides/metrics/" class="md-nav__link">
-        Metrics
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../guides/datafrom-rewrite/" class="md-nav__link">
         Rewriting Keys
       </a>
@@ -629,46 +1156,58 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_5">
+      
+        <label class="md-nav__link" for="__nav_4">
           Provider
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Provider" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           Provider
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_1">
-          AWS
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="AWS" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_1">
-          <span class="md-nav__icon md-icon"></span>
-          AWS
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -679,7 +1218,7 @@
   
     <li class="md-nav__item">
       <a href="../aws-secrets-manager/" class="md-nav__link">
-        Secrets Manager
+        AWS Secrets Manager
       </a>
     </li>
   
@@ -693,45 +1232,12 @@
   
     <li class="md-nav__item">
       <a href="../aws-parameter-store/" class="md-nav__link">
-        Parameter Store
+        AWS Parameter Store
       </a>
     </li>
   
 
             
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_2">
-          Azure
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Azure" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_2">
-          <span class="md-nav__icon md-icon"></span>
-          Azure
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
             
               
@@ -740,47 +1246,12 @@
   
     <li class="md-nav__item">
       <a href="../azure-key-vault/" class="md-nav__link">
-        Key Vault
+        Azure Key Vault
       </a>
     </li>
   
 
             
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_3">
-          Google
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Google" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_3">
-          <span class="md-nav__icon md-icon"></span>
-          Google
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
             
               
@@ -796,12 +1267,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Secret Manager
+          Google Secret Manager
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Secret Manager
+        Google Secret Manager
       </a>
       
         
@@ -907,39 +1378,6 @@
 
             
           
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_4">
-          IBM
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="IBM" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_4">
-          <span class="md-nav__icon md-icon"></span>
-          IBM
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
             
               
   
@@ -947,15 +1385,8 @@
   
     <li class="md-nav__item">
       <a href="../ibm-secrets-manager/" class="md-nav__link">
-        Secrets Manager
+        IBM Secrets Manager
       </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -994,35 +1425,9 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_7">
-          Yandex
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Yandex" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_7">
-          <span class="md-nav__icon md-icon"></span>
-          Yandex
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
     <li class="md-nav__item">
       <a href="../yandex-certificate-manager/" class="md-nav__link">
-        Certificate Manager
+        Yandex Certificate Manager
       </a>
     </li>
   
@@ -1036,45 +1441,12 @@
   
     <li class="md-nav__item">
       <a href="../yandex-lockbox/" class="md-nav__link">
-        Lockbox
+        Yandex Lockbox
       </a>
     </li>
   
 
             
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_8" type="checkbox" id="__nav_5_8" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_8">
-          Gitlab
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Gitlab" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_8">
-          <span class="md-nav__icon md-icon"></span>
-          Gitlab
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
             
               
@@ -1082,46 +1454,13 @@
   
   
     <li class="md-nav__item">
-      <a href="../gitlab-project-variables/" class="md-nav__link">
-        Gitlab Project Variables
+      <a href="../gitlab-variables/" class="md-nav__link">
+        Gitlab Variables
       </a>
     </li>
   
 
             
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" type="checkbox" id="__nav_5_9" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_9">
-          Oracle
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Oracle" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_9">
-          <span class="md-nav__icon md-icon"></span>
-          Oracle
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
             
               
@@ -1137,39 +1476,6 @@
 
             
           
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10" type="checkbox" id="__nav_5_10" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_10">
-          1Password
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="1Password" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_10">
-          <span class="md-nav__icon md-icon"></span>
-          1Password
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
             
               
   
@@ -1177,15 +1483,8 @@
   
     <li class="md-nav__item">
       <a href="../1password-automation/" class="md-nav__link">
-        Secrets Automation
+        1Password Secrets Automation
       </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -1238,43 +1537,10 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_14" type="checkbox" id="__nav_5_14" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_14">
-          senhasegura
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="senhasegura" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_14">
-          <span class="md-nav__icon md-icon"></span>
-          senhasegura
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
     <li class="md-nav__item">
       <a href="../senhasegura-dsm/" class="md-nav__link">
-        DevOps Secrets Management (DSM)
+        senhasegura DevOps Secrets Management (DSM)
       </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -1294,6 +1560,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keeper-security/" class="md-nav__link">
+        Keeper Security
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1311,18 +1591,26 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" data-md-state="indeterminate" type="checkbox" id="__nav_5" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_6">
+      
+        <label class="md-nav__link" for="__nav_5">
           Examples
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Examples" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Examples
         </label>
@@ -1387,96 +1675,26 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" data-md-state="indeterminate" type="checkbox" id="__nav_6" checked>
       
       
       
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_7">
-          External Resources
+      
+        <label class="md-nav__link" for="__nav_6">
+          Community
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="External Resources" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+      <nav class="md-nav" aria-label="Community" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
-          External Resources
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../eso-talks/" class="md-nav__link">
-        Talks
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../eso-demos/" class="md-nav__link">
-        Demos
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../eso-blogs/" class="md-nav__link">
-        Blogs
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_8">
-          References
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="References" data-md-level="1">
-        <label class="md-nav__title" for="__nav_8">
-          <span class="md-nav__icon md-icon"></span>
-          References
+          Community
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1485,44 +1703,34 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../spec/" class="md-nav__link">
-        API specification
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_1" data-md-state="indeterminate" type="checkbox" id="__nav_6_1" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_9">
+      
+        <label class="md-nav__link" for="__nav_6_1">
           Contributing
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Contributing" data-md-level="1">
-        <label class="md-nav__title" for="__nav_9">
+      <nav class="md-nav" aria-label="Contributing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_1">
           <span class="md-nav__icon md-icon"></span>
           Contributing
         </label>
@@ -1603,48 +1811,93 @@
     </li>
   
 
+            
+          
+            
+              
+  
+  
+  
     
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_2" data-md-state="indeterminate" type="checkbox" id="__nav_6_2" checked>
       
       
       
-
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6_2">
+          External Resources
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="External Resources" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          External Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../faq/" class="md-nav__link">
-        FAQ
+      <a href="../../eso-talks/" class="md-nav__link">
+        Talks
       </a>
     </li>
   
 
-    
-      
-      
-      
-
+            
+          
+            
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../stability-support/" class="md-nav__link">
-        Stability and Support
+      <a href="../../eso-demos/" class="md-nav__link">
+        Demos
       </a>
     </li>
   
 
-    
-      
-      
-      
-
+            
+          
+            
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../deprecation-policy/" class="md-nav__link">
-        Deprecation Policy
+      <a href="../../eso-blogs/" class="md-nav__link">
+        Blogs
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -1771,7 +2024,7 @@
 </a>
 
 
-  <h1>Secret Manager</h1>
+  <h1>Google Secret Manager</h1>
 
 <h2 id="google-cloud-secret-manager">Google Cloud Secret Manager</h2>
 <p>External Secrets Operator integrates with <a href="https://cloud.google.com/secret-manager">GCP Secret Manager</a> for secret management.</p>
@@ -1780,14 +2033,14 @@
 <p>Your Google Kubernetes Engine (GKE) applications can consume GCP services like Secrets Manager without using static, long-lived authentication tokens. This is our recommended approach of handling credentials in GCP. ESO offers two options for integrating with GKE workload identity: <strong>pod-based workload identity</strong> and <strong>using service accounts directly</strong>. Before using either way you need to create a service account - this is covered below.</p>
 <h4 id="creating-workload-identity-service-accounts">Creating Workload Identity Service Accounts</h4>
 <p>You can find the documentation for Workload Identity <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/workload-identity">here</a>. We will walk you through how to navigate it here.</p>
-<p>Search <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/workload-identity">the document</a> for this editable values and change them to your values:<br />
+<p>Search <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/workload-identity">the document</a> for this editable values and change them to your values:
 <em>Note: If you have installed ESO, a serviceaccount has already been created. You can either patch the existing <code>external-secrets</code> SA or create a new one that fits your needs.</em></p>
 <ul>
 <li><code>CLUSTER_NAME</code>: The name of your cluster</li>
 <li><code>PROJECT_ID</code>: Your project ID (not your Project number nor your Project name)</li>
 <li><code>K8S_NAMESPACE</code>: For us following these steps here it will be <code>es</code>, but this will be the namespace where you deployed the external-secrets operator</li>
 <li><code>KSA_NAME</code>: external-secrets (if you are not creating a new one to attach to the deployment)</li>
-<li><code>GSA_NAME</code>: external-secrets for simplicity, or something else if you have to follow different naming convetions for cloud resources</li>
+<li><code>GSA_NAME</code>: external-secrets for simplicity, or something else if you have to follow different naming conventions for cloud resources</li>
 <li><code>ROLE_NAME</code>: should be <code>roles/secretmanager.secretAccessor</code> - so you make the pod only be able to access secrets on Secret Manager</li>
 </ul>
 <h4 id="using-service-accounts-directly">Using Service Accounts directly</h4>
@@ -1804,17 +2057,17 @@
 <div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">external-secrets.io/v1beta1</span><span class="w"></span>
 <span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ClusterSecretStore</span><span class="w"></span>
 <span class="nt">metadata</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">example</span><span class="w"></span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">gcp-store</span><span class="w"></span>
 <span class="nt">spec</span><span class="p">:</span><span class="w"></span>
 <span class="w">  </span><span class="nt">provider</span><span class="p">:</span><span class="w"></span>
 <span class="w">    </span><span class="nt">gcpsm</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">projectID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">my-project</span><span class="w"></span>
+<span class="w">      </span><span class="nt">projectID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">alphabet-123</span><span class="w"></span>
 <span class="w">      </span><span class="nt">auth</span><span class="p">:</span><span class="w"></span>
 <span class="w">        </span><span class="nt">workloadIdentity</span><span class="p">:</span><span class="w"></span>
 <span class="w">          </span><span class="c1"># name of the cluster region</span><span class="w"></span>
 <span class="w">          </span><span class="nt">clusterLocation</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">europe-central2</span><span class="w"></span>
 <span class="w">          </span><span class="c1"># name of the GKE cluster</span><span class="w"></span>
-<span class="w">          </span><span class="nt">clusterName</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">example-workload-identity</span><span class="w"></span>
+<span class="w">          </span><span class="nt">clusterName</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">alpha-cluster-42</span><span class="w"></span>
 <span class="w">          </span><span class="c1"># projectID of the cluster (if omitted defaults to spec.provider.gcpsm.projectID)</span><span class="w"></span>
 <span class="w">          </span><span class="nt">clusterProjectID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">my-cluster-project</span><span class="w"></span>
 <span class="w">          </span><span class="c1"># reference the sa from above</span><span class="w"></span>
@@ -1846,14 +2099,16 @@ You just need to set the <code>projectID</code>, all other fields can be omitted
 <div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">external-secrets.io/v1beta1</span><span class="w"></span>
 <span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SecretStore</span><span class="w"></span>
 <span class="nt">metadata</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">example</span><span class="w"></span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">gcp-store</span><span class="w"></span>
 <span class="nt">spec</span><span class="p">:</span><span class="w"></span>
 <span class="w">  </span><span class="nt">provider</span><span class="p">:</span><span class="w"></span>
 <span class="w">    </span><span class="nt">gcpsm</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">projectID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pid</span><span class="w"></span>
+<span class="w">      </span><span class="nt">projectID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">alphabet-123</span><span class="w"></span>
 </code></pre></div>
 <h3 id="gcp-service-account-authentication">GCP Service Account authentication</h3>
-<p>You can use <a href="https://cloud.google.com/iam/docs/service-accounts">GCP Service Account</a> to authenticate with GCP. These are static, long-lived credentials. A GCP Service Account is a JSON file that needs to be stored in a <code>Kind=Secret</code>. ESO will use that Secret to authenticate with GCP. See here how you <a href="https://cloud.google.com/iam/docs/creating-managing-service-accounts">manage GCP Service Accounts</a>.</p>
+<p>You can use <a href="https://cloud.google.com/iam/docs/service-accounts">GCP Service Account</a> to authenticate with GCP. These are static, long-lived credentials. A GCP Service Account is a JSON file that needs to be stored in a <code>Kind=Secret</code>. ESO will use that Secret to authenticate with GCP. See here how you <a href="https://cloud.google.com/iam/docs/creating-managing-service-accounts">manage GCP Service Accounts</a>.
+After creating a GCP Service account go to <code>IAM &amp; Admin</code> web UI, click <code>ADD ANOTHER ROLE</code> button, add <code>Secret Manager Secret Accessor</code> role to this service account.
+The <code>Secret Manager Secret Accessor</code> role is required to access secrets.</p>
 <div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v1</span><span class="w"></span>
 <span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Secret</span><span class="w"></span>
 <span class="nt">metadata</span><span class="p">:</span><span class="w"></span>
@@ -1881,7 +2136,7 @@ You just need to set the <code>projectID</code>, all other fields can be omitted
 <div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">external-secrets.io/v1beta1</span><span class="w"></span>
 <span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SecretStore</span><span class="w"></span>
 <span class="nt">metadata</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">example</span><span class="w"></span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">gcp-store</span><span class="w"></span>
 <span class="nt">spec</span><span class="p">:</span><span class="w"></span>
 <span class="w">  </span><span class="nt">provider</span><span class="p">:</span><span class="w"></span>
 <span class="w">      </span><span class="nt">gcpsm</span><span class="p">:</span><span class="w">                                  </span><span class="c1"># gcpsm provider</span><span class="w"></span>
@@ -1890,7 +2145,7 @@ You just need to set the <code>projectID</code>, all other fields can be omitted
 <span class="w">            </span><span class="nt">secretAccessKeySecretRef</span><span class="p">:</span><span class="w"></span>
 <span class="w">              </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">gcpsm-secret</span><span class="w">              </span><span class="c1"># secret name containing SA key</span><span class="w"></span>
 <span class="w">              </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">secret-access-credentials</span><span class="w">  </span><span class="c1"># key name containing SA key</span><span class="w"></span>
-<span class="w">        </span><span class="nt">projectID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myproject</span><span class="w">                  </span><span class="c1"># name of Google Cloud project</span><span class="w"></span>
+<span class="w">        </span><span class="nt">projectID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">alphabet-123</span><span class="w">               </span><span class="c1"># name of Google Cloud project</span><span class="w"></span>
 </code></pre></div>
 <p><strong>NOTE:</strong> In case of a <code>ClusterSecretStore</code>, Be sure to provide <code>namespace</code> for <code>SecretAccessKeyRef</code> with the namespace of the secret that we just created.</p>
 <h4 id="creating-external-secret">Creating external secret</h4>
@@ -1898,19 +2153,22 @@ You just need to set the <code>projectID</code>, all other fields can be omitted
 <div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">external-secrets.io/v1beta1</span><span class="w"></span>
 <span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ExternalSecret</span><span class="w"></span>
 <span class="nt">metadata</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">example</span><span class="w"></span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">database-credentials</span><span class="w"></span>
 <span class="nt">spec</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">refreshInterval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1h</span><span class="w">           </span><span class="c1"># rate SecretManager pulls GCPSM</span><span class="w"></span>
+<span class="w">  </span><span class="nt">refreshInterval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1h</span><span class="w">             </span><span class="c1"># rate SecretManager pulls GCPSM</span><span class="w"></span>
 <span class="w">  </span><span class="nt">secretStoreRef</span><span class="p">:</span><span class="w"></span>
 <span class="w">    </span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SecretStore</span><span class="w"></span>
-<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">example</span><span class="w">               </span><span class="c1"># name of the SecretStore (or kind specified)</span><span class="w"></span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">gcp-store</span><span class="w">               </span><span class="c1"># name of the SecretStore (or kind specified)</span><span class="w"></span>
 <span class="w">  </span><span class="nt">target</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">secret-to-be-created</span><span class="w">  </span><span class="c1"># name of the k8s Secret to be created</span><span class="w"></span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">database-credentials</span><span class="w">    </span><span class="c1"># name of the k8s Secret to be created</span><span class="w"></span>
 <span class="w">    </span><span class="nt">creationPolicy</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Owner</span><span class="w"></span>
 <span class="w">  </span><span class="nt">data</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">secretKey</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">dev-secret-test</span><span class="w">  </span><span class="c1"># name of the GCPSM secret key</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">secretKey</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">database_username</span><span class="w"></span>
 <span class="w">    </span><span class="nt">remoteRef</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">dev-secret-test</span><span class="w"></span>
+<span class="w">      </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">database_username</span><span class="w">      </span><span class="c1"># name of the GCPSM secret key</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">secretKey</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">database_password</span><span class="w"></span>
+<span class="w">    </span><span class="nt">remoteRef</span><span class="p">:</span><span class="w"></span>
+<span class="w">      </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">database_password</span><span class="w">      </span><span class="c1"># name of the GCPSM secret key</span><span class="w"></span>
 </code></pre></div>
 <p>The operator will fetch the GCP Secret Manager secret and inject it as a <code>Kind=Secret</code>
 <div class="highlight"><pre><span></span><code>kubectl get secret secret-to-be-created -n &lt;namespace&gt; | -o jsonpath=&#39;{.data.dev-secret-test}&#39; | base64 -d
@@ -1928,7 +2186,7 @@ You just need to set the <code>projectID</code>, all other fields can be omitted
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../azure-key-vault/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Key Vault" rel="prev">
+        <a href="../azure-key-vault/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Azure Key Vault" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1937,20 +2195,20 @@ You just need to set the <code>projectID</code>, all other fields can be omitted
               <span class="md-footer__direction">
                 Previous
               </span>
-              Key Vault
+              Azure Key Vault
             </div>
           </div>
         </a>
       
       
         
-        <a href="../ibm-secrets-manager/" class="md-footer__link md-footer__link--next" aria-label="Next: Secrets Manager" rel="next">
+        <a href="../ibm-secrets-manager/" class="md-footer__link md-footer__link--next" aria-label="Next: IBM Secrets Manager" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Secrets Manager
+              IBM Secrets Manager
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -1988,7 +2246,7 @@ For a list of trademarks of The Linux Foundation, please see our <a href="https:
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.092fa1f6.min.js", "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.expand"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.092fa1f6.min.js", "version": {"provider": "mike"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.e3b2bf44.min.js"></script>
